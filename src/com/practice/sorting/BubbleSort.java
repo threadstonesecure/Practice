@@ -1,5 +1,7 @@
 package com.practice.sorting;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 	public static void main(String[] args) {
 		int a[] = { 5, 1, 6, 2, 4, 3 };
@@ -13,6 +15,6 @@ public class BubbleSort {
 				}
 			}
 		}
-		System.out.println(a);
+		System.out.println(Arrays.toString(a));
 	}
 }
